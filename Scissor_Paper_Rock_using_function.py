@@ -22,6 +22,7 @@ def player_choice():
             return choose
         print(f"Invalid choice '{choose}'. Please select from scissor/ paper/ rock")
         
+        # it determint the winner
 def determine_winner(player, computer):
     '''Determining the winner using nested loop'''
     if player == computer:
@@ -45,6 +46,8 @@ def determine_winner(player, computer):
         else:
             return "computer"
         
+
+        # it displays the result
 def display_result(player, computer, winner):
     '''Displays the winner/ result of the game..'''
     print(f"\nYou chose: {player}")
